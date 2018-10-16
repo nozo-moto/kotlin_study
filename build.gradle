@@ -13,6 +13,9 @@ mainClassName = 'code.main.MainKt'
 dependencies {
     compile "com.sparkjava:spark-kotlin:1.0.0-alpha"
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8"
+    compile 'org.jetbrains.exposed:exposed:0.10.5'
+    compile "mysql:mysql-connector-java:5.1.46" 
+    compile 'org.slf4j:slf4j-log4j12:1.7.21'
 }
 
 
